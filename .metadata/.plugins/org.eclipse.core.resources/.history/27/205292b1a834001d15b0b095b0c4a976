@@ -1,0 +1,22 @@
+package JavaPrograms;
+
+public class InterFaceClass  {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//new InterFaceClass().show();
+		
+		InterFaceExample obj= new InterFaceExample() {
+			
+			@Override
+			public void show() {
+				System.out.println("Interface");
+				
+			}
+		};
+	}
+	
+	
+	
+}

@@ -1,0 +1,33 @@
+package IntPrograms;
+
+public class PelindromNumber {
+
+	public static void main(String... args) {
+
+		int n = 121;
+		System.out.println(pelindrom(n));
+	}
+
+	public static String pelindrom(int n) {
+
+		int s = 0, r = 0;
+
+		while (n > 0) {
+
+			r = n % 10;
+			n = n / 10;
+			s = s * 10 + r;
+		}
+
+		if (n == s) {
+			
+			return "Number is Pelindrom!! Value: " + s;
+		} else {
+			return "Number is Pelindrom!! Value: " + s;
+
+			
+		}
+
+	}
+
+}

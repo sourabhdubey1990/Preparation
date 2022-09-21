@@ -1,0 +1,13 @@
+package JavaPrograms;
+
+public class Constructor {
+	
+	public Constructor() {
+		// TODO Auto-generated constructor stub
+		System.out.println("Inside the constructor");
+	}
+	private void name() {
+		System.out.println("Private method");
+		
+	}
+}

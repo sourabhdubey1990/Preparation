@@ -1,0 +1,14 @@
+package IntPrograms;
+
+import java.util.ArrayList;
+
+public class iteratArrayList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ArraList<String> names= new ArrayList<>();
+
+	}
+
+}

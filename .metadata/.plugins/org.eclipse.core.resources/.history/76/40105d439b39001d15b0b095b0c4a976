@@ -1,0 +1,30 @@
+package IntPrograms;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class iteratArrayList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ArrayList<Integer> names= new ArrayList<>();
+		
+		for(int i=0;i<10;i++)
+		{
+			names.add(i);
+		}
+
+		Iterator<Integer> i =names.iterator();
+		while(i.hasNext())
+		
+		{
+			System.out.println("Value: "+i.toString());
+		}
+		for (Integer integer : names) {
+			System.out.println("Values: "+integer);
+			
+		}
+	}
+
+}

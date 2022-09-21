@@ -1,0 +1,25 @@
+package JavaPrograms;
+
+ class Constructor {
+	
+	public Constructor() {
+		// TODO Auto-generated constructor stub
+		this(5);
+		System.out.println("Inside the constructor");
+		name();
+		
+	}
+	
+		Constructor(int a) {
+		System.out.println("Constructor Chaining" + a);
+		
+	}
+	
+		Constructor(int b,int c) {
+		
+	}
+	private void name() {
+		System.out.println("Private method");
+		
+	}
+}

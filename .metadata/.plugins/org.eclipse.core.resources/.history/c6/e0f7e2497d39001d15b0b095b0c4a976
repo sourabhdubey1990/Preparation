@@ -1,0 +1,19 @@
+package IntPrograms;
+
+public class PelindromNumber {
+	
+	public static void main(String...args) {
+		
+		int s=0,n=123,r = 0;
+		
+		while(n>0) {
+			
+			r=n%10;
+			n=n/10;
+			s=s*10+r;	
+		}
+		System.out.println("Value: "+s);
+		
+	}
+
+}
